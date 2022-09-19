@@ -39,7 +39,7 @@ $(OBJ_DIR):
 $(OBJ_DIR)%.o: %.cpp $(HPP)
 			$(CC) -c $< -o $@
 
-$(NAME): $(OBJ_DIR) $(OBJS) MAKEFILE
+$(NAME): $(OBJ_DIR) $(OBJS)
 			$(CC) $(LIBS) $(OBJS) -o $(NAME)
 
 clean:
