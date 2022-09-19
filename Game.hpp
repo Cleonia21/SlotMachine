@@ -8,9 +8,11 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
+#include <string>
+#include <exception>
 
-#include "/usr/local/include/SDL2/SDL.h"
-#include "/usr/local/include/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 #include "Texture.hpp"
 #include "ButtonsInterface.hpp"
@@ -20,9 +22,6 @@
 #include "RotationState.hpp"
 #include "StopState.hpp"
 #include "WinState.hpp"
-#include <string>
-#include <exception>
-
 #include "slot_machine.h"
 
 class Game {

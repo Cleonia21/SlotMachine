@@ -5,8 +5,8 @@
 #ifndef SLOT_MACHINE_BUTTON_HPP
 #define SLOT_MACHINE_BUTTON_HPP
 
-#include "/usr/local/include/SDL2/SDL.h"
-#include "/usr/local/include/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 #include "Texture.hpp"
 
 //The mouse button

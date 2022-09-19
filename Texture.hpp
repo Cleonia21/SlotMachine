@@ -6,8 +6,8 @@
 #define SLOT_MACHINE_TEXTURE_HPP
 
 #include <iostream>
-#include "/usr/local/include/SDL2/SDL.h"
-#include "/usr/local/include/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 //Texture wrapper class
 class Texture

@@ -3,4 +3,4 @@ cmake-build-debug
 CMakeLists.txt
 .DS_Store
 .idea
-slot_machine.h
+slot_machine

@@ -5,8 +5,8 @@
 #ifndef SLOT_MACHINE_STATEINTERFACE_HPP
 #define SLOT_MACHINE_STATEINTERFACE_HPP
 
-#include "/usr/local/include/SDL2/SDL.h"
-#include "/usr/local/include/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 #include "slot_machine.h"
 #include "Texture.hpp"
 #include "Button.hpp"

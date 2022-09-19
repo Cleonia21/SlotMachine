@@ -13,6 +13,9 @@ public:
 
     int  getState();
     void render();
+private:
+    Uint32 timer;
+    Uint32 timeForStop;
 };
 
 

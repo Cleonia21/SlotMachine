@@ -5,8 +5,8 @@
 #ifndef SLOT_MACHINE_DRUMSYMBOL_HPP
 #define SLOT_MACHINE_DRUMSYMBOL_HPP
 
-#include "/usr/local/include/SDL2/SDL.h"
-#include "/usr/local/include/SDL2/SDL_image.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 #include "Texture.hpp"
 #include "slot_machine.h"
 
